@@ -22,7 +22,7 @@ def multiplicar(a, b):
 
 
 def dividir(a, b):
-    """Retorna la división de a entre b. Lanza ZeroDivisionError si b es cero."""
+    """Retorna la división de a entre b. Error si b = 0."""
     if b == 0:
         raise ZeroDivisionError("No se puede dividir por cero")
     return a / b
