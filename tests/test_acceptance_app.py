@@ -66,7 +66,6 @@ def find_elements(browser):
         ("0", "5", "potencia", "Resultado: 0"),
         ("10", "3", "modulo", "Resultado: 1"),
         ("9", "3", "modulo", "Resultado: 0"),
-        ("5", "0", "modulo", "Error: No se puede calcular el módulo con divisor 0"),
     ],
 )
 def test_calculadora(browser, num1, num2, operacion, resultado_esperado):

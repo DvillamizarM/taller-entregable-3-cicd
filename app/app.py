@@ -31,10 +31,7 @@ def index():
             else:
                 resultado = "Operación no válida"
         except ValueError:
-            if "módulo" in str(e):
-                resultado = str(e)
-            else:
-                resultado = "Error: Introduce números válidos"
+            resultado = "Error: Introduce números válidos"
         except ZeroDivisionError:
             resultado = "Error: No se puede dividir por cero"
 
